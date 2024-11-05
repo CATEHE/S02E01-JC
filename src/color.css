@@ -1,0 +1,19 @@
+*, * ::before, *::after{
+  box-sizing: inherit;
+}
+
+.contenedor_color{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #9eabab;
+  border-radius: 15px;
+  height: 50px;
+  
+}
+
+.c1, .c2, .c3, .c4 {
+  height: 80%;
+  width: 2.5rem;
+}
